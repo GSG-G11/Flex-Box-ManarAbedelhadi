@@ -2,28 +2,53 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
-  background-color: gray;
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    padding: 12px 0;
 }
 .menu {
   border: 1px solid white;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 18px;
+  font-size: 20px;
 }
 
 .main {
+  height: 100vh;
+  display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .article {
   background-color: lightgray;
+  width: 20%;
+  height: 90%;
 }
 .article-title {
   background-color: gray;
+  height: 25%;
 }
 .footer {
   background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  height: 75px;
+  padding: 10px 0;
 }
 .footer-item {
   color: white;
   border: 1px solid white;
+  text-align: left;
+  width: 27%;
+  font-size: 19px;
+  padding: 10px 8px;
 }
